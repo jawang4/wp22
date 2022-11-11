@@ -8,8 +8,8 @@
 
 
 .fit-picture {
-    width: 50px;
-    image-orientation:center;
+    width: 300px;
+    float: right;
 
 }
   .heading {
