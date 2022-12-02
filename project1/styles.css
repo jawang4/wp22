@@ -27,11 +27,12 @@ p{
     border: 1px solid rgb(255, 85, 28);
     padding: 50px;
     margin: 20px;
+
+    transition-duration: 1s;
 }
 
 p:hover {
     background-color: rgb(206, 0, 0);
-    transition-duration: 1s;
     }
 
  span.fruit {

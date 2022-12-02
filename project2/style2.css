@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth; /*anchor links scroll smoothly*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: url("Syne-ExtraBold-800.ttf") format("TrueType");
+	font-weight: normal;
+	font-style: normal;
+  }
+
+header {
+	margin: 10px;
+	padding: 60px;
+}
+
+.fit-picture {
+width: 350px;
+float: right;
+transition:0.5s;
+}
+
+.fit-picture:hover {
+    filter:saturate(200%);
+    }
+
+
+
+.title_text{
+    font-family: 'Syne';
+    color:rgb(255, 88, 79);
+    font-size: 80px;
+    text-align:left;
+    word-spacing:5px;
+    font-weight: 400;
+}
+
+
+.parent {
+	display: grid;
+	grid-template-columns: .5fr 1fr; /* right column x2 of left */
+	padding: 80px;
+	grid-gap: 80px;
+	align-items: stretch; /* drid items w/equal height */
+}
+
+
+.main_text{
+font-family: 'Space Mono'; 
+color:rgb(0, 0, 0);
+font-size: 26px;
+text-align:left; 
+font-weight:normal;
+}
+
+.side{
+    position: fixed;
+	bottom: 50px;
+	left: 50px;
+    font-family: 'Space Mono'; 
+}
+
+#section1 {
+	width: auto;
+    border: 1px solid rgb(255, 85, 28);
+    padding: 50px;
+    margin: 20px;
+    transition-duration: .5s;
+}
+
+#section1:hover{
+    background-color: rgb(206, 0, 0);
+    color:rgb(255, 236, 235);
+}
+
+
+#section2 {
+	width: auto;
+    border: 1px solid rgb(255, 85, 28);
+    padding: 50px;
+    margin: 20px;
+    transition-duration: .5s;
+}
+
+#section2:hover{
+    background-color: rgb(206, 0, 0);
+    color:rgb(255, 236, 235);
+}
+
+
+#section3 {
+    width: auto;
+    border: 1px solid rgb(255, 85, 28);
+    padding: 50px;
+    margin: 20px;
+    transition-duration: .5s;
+}
+
+#section3:hover{
+    background-color: rgb(206, 0, 0);
+    color:rgb(255, 236, 235);
+}
+
+
+#section4 {
+    width: auto;
+    border: 1px solid rgb(255, 85, 28);
+    padding: 50px;
+    margin: 20px;
+    transition-duration: .5s;
+}
+
+#section4:hover{
+    background-color: rgb(206, 0, 0);
+    color:rgb(255, 236, 235);
+}
+
+
+h1 {
+    font-size:20px;
+    font-weight:100;
+}
+/*p {
+    width: auto;
+    border: 1px solid rgb(255, 85, 28);
+    padding: 50px;
+    margin: 20px;
+     transition-duration: .5s;
+
+}
+
+p:hover {
+    background-color: rgb(206, 0, 0);
+    color:rgb(255, 236, 235);
+    }
+*/
+ span.fruit {
+    color: rgb(255, 111, 111);
+    font-size: larger;
+    text-transform: uppercase;
+   /* text-decoration: green wavy underline;*/
+ }
+
