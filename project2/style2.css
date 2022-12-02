@@ -30,6 +30,21 @@ transition:0.5s;
 
 
 
+    body {
+        padding: 25px;
+        background-color: #f4dae6;
+        color: black;
+        font-size: 25px;
+      }
+
+
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+
+
+
 .title_text{
     font-family: 'Syne';
     color:rgb(255, 88, 79);
